@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+
+td:nth-child(4):contains("Yes") {
+    color: green;
+    font-weight: bold;
+}
+
+td:nth-child(4):contains("No") {
+    color: red;
+    font-weight: bold;
+}
